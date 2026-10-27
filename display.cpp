@@ -48,11 +48,11 @@ inline i32 ramp(i32 cells) {
     return (r * r >> 10) * (3 * unit - 2 * r) >> 10;
 }
 
-// "<pin> <word>", bounded to a header value.
+// "<pin> <word>", or "<pin><word>" for 4-letter words: 6 characters run into the next title.
 inline void label(char* out, const char* pin, const char* word) {
     u32 n = 0;
     out[n++] = pin[0];
-    out[n++] = ' ';
+    if (!word[3]) out[n++] = ' ';
     while (*word && n < header_capacity - 1) out[n++] = *word++;
     out[n] = 0;
 }

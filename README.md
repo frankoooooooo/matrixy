@@ -18,7 +18,7 @@ it has rested for the Snap time, so moving pins during a set is silent.
 | Tilt | One of 20 ratios of the note, 1:4 to 9:1 | |
 | Snap | Reroute delay, 0 to 1 s (`inst` at 0) | |
 
-The header shows the held pin and its cell, such as `2 cut` and `2 saw`.
+The header shows the held pin and its cell, such as `2 cut` and `2 saw`; four-letter words drop the space (`1bnce`) to fit.
 
 ## Tilt
 

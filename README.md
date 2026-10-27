@@ -68,11 +68,6 @@ That ratio does three things at once:
 init, kick drum, noise snare, pew pew, bouncing ball, glass bell, wobble
 bass, slow drone, growl, broken radio, chaos garden, chiptune.
 
-## Inspiration
-
-- The Erica Synths Syntrx and its pin-matrix patching.
-- OP-XY wire-mesh concept art and warped 3D grid imagery.
-
 ## Performance and size
 
 | | |

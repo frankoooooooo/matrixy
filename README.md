@@ -3,6 +3,8 @@
 An 8×8 pin-matrix synth for the OP-XY (OS 1.2.1, Open-XY SDK 1.3), drawn as
 a greyscale 3D wire terrain. Machine ID `matrixy`.
 
+![matriXY running in the Open-XY browser preview: the 3D wire terrain with three pins, playing the chaos garden preset](https://github.com/frankoooooooo/matrixy/releases/download/v1.0.0/matrixy-screen.png)
+
 Rows are sources and columns are destinations. Three pins patch them, and
 each pin raises a hill in the mesh where it sits. A pin only reroutes once
 it has rested for the Snap time, so moving pins during a set is silent.

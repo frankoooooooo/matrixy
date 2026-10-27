@@ -74,10 +74,10 @@ bass, slow drone, growl, broken radio, chaos garden, chiptune.
 
 | | |
 | --- | --- |
-| CPU on hardware | 2.126% of the stock voice budget: median of 3 runs on an OP-XY, one voice, controls at their midpoints (noise into the filter). Stock Prism measured 2.127% and Wavetable 2.139% in the same runs. Not a worst case, and not a prediction of polyphony |
-| Host estimate, heaviest setting | About 13,600 Blackfin instructions per voice block (the SDK's target is 15,000) |
+| CPU on hardware | 2.179% of the stock voice budget (v1.0.1): median of 3 runs on an OP-XY, one voice, controls at their midpoints (noise into the filter). Stock Prism measured 2.129% and Wavetable 2.138% in the same runs. Not a worst case, and not a prediction of polyphony |
+| Host estimate, heaviest setting | About 14,100 Blackfin instructions per voice block (the SDK's target is 15,000) |
 | Polyphony | 8 voices |
-| Firmware memory | 32.6 KiB of the shared 2040 KiB module budget, including state |
+| Firmware memory | 32.7 KiB of the shared 2040 KiB module budget, including state |
 | Per voice | 1,260 bytes; screen state 128 bytes |
 
 ## Develop

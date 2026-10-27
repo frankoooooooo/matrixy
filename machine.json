@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "sdk": "1.3",
+  "kind": "synth",
+  "description": "matriXY: an 8x8 pin matrix on a 3D wire terrain. X/Y place three pins; press to grab the next. Tilt sets a ratio of the note.",
+  "identity": {
+    "engine": 40,
+    "page": 90
+  }
+}

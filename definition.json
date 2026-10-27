@@ -1,0 +1,311 @@
+{
+  "schema": 1,
+  "id": "matrixy",
+  "name": "matriXY",
+  "parameters": [
+    {
+      "id": "x1",
+      "label": "X",
+      "default": 0.1667,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "out",
+          "ptch",
+          "fold",
+          "cut",
+          "res",
+          "ring",
+          "crsh",
+          "rate"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "y1",
+      "label": "Y",
+      "default": 0.1667,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "sine",
+          "saw",
+          "sqr",
+          "nois",
+          "lfo",
+          "env",
+          "s+h",
+          "bnce"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "tilt",
+      "label": "Tilt",
+      "default": 0.275,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "1:4",
+          "1:3",
+          "1:2",
+          "2:3",
+          "3:4",
+          "1:1",
+          "5:4",
+          "4:3",
+          "3:2",
+          "5:3",
+          "2:1",
+          "5:2",
+          "3:1",
+          "7:2",
+          "4:1",
+          "5:1",
+          "6:1",
+          "7:1",
+          "8:1",
+          "9:1"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "snap",
+      "label": "Snap",
+      "default": 0.4,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      "display": "duration"
+    },
+    {
+      "id": "x2",
+      "label": "X",
+      "control": 0,
+      "default": 0.0556,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "out",
+          "ptch",
+          "fold",
+          "cut",
+          "res",
+          "ring",
+          "crsh",
+          "rate"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "y2",
+      "label": "Y",
+      "control": 1,
+      "default": 0.0556,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "sine",
+          "saw",
+          "sqr",
+          "nois",
+          "lfo",
+          "env",
+          "s+h",
+          "bnce"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "x3",
+      "label": "X",
+      "control": 0,
+      "default": 0.0556,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "out",
+          "ptch",
+          "fold",
+          "cut",
+          "res",
+          "ring",
+          "crsh",
+          "rate"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "y3",
+      "label": "Y",
+      "control": 1,
+      "default": 0.0556,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "sine",
+          "saw",
+          "sqr",
+          "nois",
+          "lfo",
+          "env",
+          "s+h",
+          "bnce"
+        ]
+      },
+      "display": "enum"
+    }
+  ],
+  "presets": {
+    "init": {
+      "x1": 0.1667,
+      "y1": 0.1667,
+      "tilt": 0.275,
+      "snap": 0.4,
+      "x2": 0.0556,
+      "y2": 0.0556,
+      "x3": 0.0556,
+      "y3": 0.0556
+    },
+    "kick drum": {
+      "x1": 0.1667,
+      "y1": 0.1667,
+      "tilt": 0.925,
+      "snap": 0.4,
+      "x2": 0.2778,
+      "y2": 0.7222,
+      "x3": 0.1667,
+      "y3": 0.7222
+    },
+    "noise snare": {
+      "x1": 0.1667,
+      "y1": 0.5,
+      "tilt": 0.925,
+      "snap": 0.4,
+      "x2": 0.1667,
+      "y2": 0.7222,
+      "x3": 0.1667,
+      "y3": 0.1667
+    },
+    "pew pew": {
+      "x1": 0.1667,
+      "y1": 0.2778,
+      "tilt": 0.975,
+      "snap": 0.4,
+      "x2": 0.2778,
+      "y2": 0.7222,
+      "x3": 0.5,
+      "y3": 0.7222
+    },
+    "bouncing ball": {
+      "x1": 0.1667,
+      "y1": 0.9444,
+      "tilt": 0.275,
+      "snap": 0.4,
+      "x2": 0.2778,
+      "y2": 0.9444,
+      "x3": 0.5,
+      "y3": 0.7222
+    },
+    "glass bell": {
+      "x1": 0.2778,
+      "y1": 0.1667,
+      "tilt": 0.625,
+      "snap": 0.4,
+      "x2": 0.1667,
+      "y2": 0.7222,
+      "x3": 0.7222,
+      "y3": 0.1667
+    },
+    "wobble bass": {
+      "x1": 0.1667,
+      "y1": 0.3889,
+      "tilt": 0.425,
+      "snap": 0.4,
+      "x2": 0.5,
+      "y2": 0.6111,
+      "x3": 0.6111,
+      "y3": 0.6111
+    },
+    "slow drone": {
+      "x1": 0.1667,
+      "y1": 0.2778,
+      "tilt": 0.125,
+      "snap": 0.4,
+      "x2": 0.1667,
+      "y2": 0.3889,
+      "x3": 0.6111,
+      "y3": 0.6111
+    },
+    "growl": {
+      "x1": 0.1667,
+      "y1": 0.2778,
+      "tilt": 0.225,
+      "snap": 0.4,
+      "x2": 0.3889,
+      "y2": 0.7222,
+      "x3": 0.2778,
+      "y3": 0.6111
+    },
+    "broken radio": {
+      "x1": 0.1667,
+      "y1": 0.2778,
+      "tilt": 0.575,
+      "snap": 0.4,
+      "x2": 0.8333,
+      "y2": 0.8333,
+      "x3": 0.7222,
+      "y3": 0.5
+    },
+    "chaos garden": {
+      "x1": 0.9444,
+      "y1": 0.6111,
+      "tilt": 0.175,
+      "snap": 0.4,
+      "x2": 0.2778,
+      "y2": 0.8333,
+      "x3": 0.3889,
+      "y3": 0.6111
+    },
+    "chiptune": {
+      "x1": 0.1667,
+      "y1": 0.3889,
+      "tilt": 0.725,
+      "snap": 0.4,
+      "x2": 0.2778,
+      "y2": 0.8333,
+      "x3": 0.8333,
+      "y3": 0.7222
+    }
+  },
+  "resources": {
+    "voiceBytes": 1260,
+    "voiceAlignment": 4,
+    "voiceCapacity": 8,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 128,
+      "stateAlignment": 4,
+      "paths": 4,
+      "points": 64,
+      "nodes": 12,
+      "texts": 0,
+      "palette": 8
+    }
+  }
+}

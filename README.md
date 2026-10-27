@@ -70,6 +70,9 @@ That ratio does three things at once:
 init, kick drum, noise snare, pew pew, bouncing ball, glass bell, wobble
 bass, slow drone, growl, broken radio, chaos garden, chiptune.
 
+The named presets ship to the OP-XY from `presets/`; `definition.json` holds
+the same settings for the browser preview.
+
 ## Performance and size
 
 | | |

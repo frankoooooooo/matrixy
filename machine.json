@@ -6,5 +6,6 @@
   "identity": {
     "engine": 40,
     "page": 90
-  }
+  },
+  "presets": "presets"
 }
